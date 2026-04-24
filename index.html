@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en" data-lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Diego Diaz Rodriguez — Solutions Engineer | Azure Data & AI</title>
+  <meta name="description" content="Diego Diaz Rodriguez — Solutions Engineer | Azure Data & AI at Microsoft. Cloud architecture, AI, and data solutions." />
+  <meta property="og:title" content="Diego Diaz Rodriguez — Solutions Engineer | Azure Data & AI" />
+  <meta property="og:description" content="Cloud architecture, AI, and data solutions specialist at Microsoft." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+</head>
+<body>
+
+  <!-- Skip to main content (accessibility) -->
+  <a href="#about" class="skip-link">Skip to content</a>
+
+  <!-- ═══════════════ NAVIGATION ═══════════════ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">D<span class="accent">D</span>R</a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" data-i18n="nav.about">About</a></li>
+        <li><a href="#certs" data-i18n="nav.certs">Certifications</a></li>
+        <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+        <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+        <li><a href="#experience" data-i18n="nav.experience">Experience</a></li>
+        <li><a href="#community" data-i18n="nav.community">Community</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="lang-toggle" id="lang-toggle" aria-label="Toggle language">
+          <span data-i18n="lang_toggle">ES</span>
+        </button>
+        <button class="nav-hamburger" id="nav-hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ HERO ═══════════════ -->
+  <section class="hero" id="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-content">
+      <div class="hero-avatar">
+        <img src="assets/images/Avatar.jpeg" alt="Diego Diaz Rodriguez" width="160" height="160" />
+      </div>
+      <p class="hero-greeting" data-i18n="hero.greeting">Hello, I'm</p>
+      <h1 class="hero-name">
+        <span class="hero-name-text" data-i18n="hero.name">Diego Diaz Rodriguez</span>
+      </h1>
+      <h2 class="hero-title" data-i18n="hero.title">Solutions Engineer | Azure Data &amp; AI</h2>
+      <p class="hero-subtitle" data-i18n="hero.subtitle">Passionate about technology, innovation &amp; empowering communities</p>
+      <div class="hero-cta">
+        <a href="https://www.linkedin.com/in/diegodiazrodriguez/" target="_blank" rel="noopener" class="btn btn-primary" data-i18n="hero.cta_linkedin">Connect on LinkedIn</a>
+        <a href="#experience" class="btn btn-outline" data-i18n="hero.cta_experience">See My Experience</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="mouse"><div class="mouse-wheel"></div></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ ABOUT ═══════════════ -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-heading reveal" data-i18n="about.heading">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p data-i18n="about.p1">I'm a Digital Solutions Engineer at Microsoft, specializing in cloud architecture, artificial intelligence, and data-driven solutions. I help organizations transform their operations through innovative technology.</p>
+          <p data-i18n="about.p2">Beyond my technical work, I'm deeply committed to community building and education — leading initiatives that empower Hispanic and Latinx communities in tech.</p>
+        </div>
+        <div class="about-highlights reveal">
+          <div class="highlight-card">
+            <span class="highlight-number" data-i18n="about.highlight1_number">12+</span>
+            <span class="highlight-label" data-i18n="about.highlight1_label">Certifications</span>
+          </div>
+          <div class="highlight-card">
+            <span class="highlight-number" data-i18n="about.highlight2_number">5+</span>
+            <span class="highlight-label" data-i18n="about.highlight2_label">Years in Cloud</span>
+          </div>
+          <div class="highlight-card">
+            <span class="highlight-number" data-i18n="about.highlight3_number">2</span>
+            <span class="highlight-label" data-i18n="about.highlight3_label">Open Source Projects</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CERTIFICATIONS ═══════════════ -->
+  <section class="section section-alt" id="certs">
+    <div class="container">
+      <h2 class="section-heading reveal" data-i18n="certs.heading">Certifications</h2>
+      <p class="section-subtitle reveal" data-i18n="certs.subtitle">Verified credentials earned through continuous learning</p>
+
+      <div class="certs-grid">
+        <!-- Expert / Associate -->
+        <div class="cert-card cert-expert reveal" data-cert="az305">
+          <div class="cert-icon">
+            <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-expert-badge.svg" alt="Microsoft Certified Expert Badge" />
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge cert-badge--expert">Expert</span>
+            <h3 data-i18n="certs.items.az305.name">Azure Solutions Architect Expert</h3>
+            <span class="cert-code">AZ-305</span>
+          </div>
+        </div>
+
+        <div class="cert-card cert-associate reveal" data-cert="ai102">
+          <div class="cert-icon">
+            <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg" alt="Microsoft Certified Associate Badge" />
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge cert-badge--associate">Associate</span>
+            <h3 data-i18n="certs.items.ai102.name">Azure AI Engineer Associate</h3>
+            <span class="cert-code">AI-102</span>
+          </div>
+        </div>
+
+        <div class="cert-card cert-associate reveal" data-cert="dp700">
+          <div class="cert-icon">
+            <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-associate-badge.svg" alt="Microsoft Certified Associate Badge" />
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge cert-badge--associate">Associate</span>
+            <h3 data-i18n="certs.items.dp700.name">Fabric Analytics Engineer Associate</h3>
+            <span class="cert-code">DP-700</span>
+          </div>
+        </div>
+
+        <div class="cert-card cert-fundamentals reveal" data-cert="m365copilot">
+          <div class="cert-icon">
+            <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg" alt="Microsoft Certified Fundamentals Badge" />
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge cert-badge--fundamentals">Fundamentals</span>
+            <h3 data-i18n="certs.items.m365copilot.name">M365 Copilot &amp; Agent Admin Fundamentals</h3>
+            <span class="cert-code">AB-900</span>
+          </div>
+        </div>
+
+        <!-- Fundamentals Row -->
+        <div class="cert-card cert-fundamentals reveal" data-cert="az900">
+          <div class="cert-icon">
+            <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg" alt="Microsoft Certified Fundamentals Badge" />
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge cert-badge--fundamentals">Fundamentals</span>
+            <h3 data-i18n="certs.items.az900.name">Azure Fundamentals</h3>
+            <span class="cert-code">AZ-900</span>
+          </div>
+        </div>
+
+        <div class="cert-card cert-fundamentals reveal" data-cert="dp900">
+          <div class="cert-icon">
+            <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg" alt="Microsoft Certified Fundamentals Badge" />
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge cert-badge--fundamentals">Fundamentals</span>
+            <h3 data-i18n="certs.items.dp900.name">Azure Data Fundamentals</h3>
+            <span class="cert-code">DP-900</span>
+          </div>
+        </div>
+
+        <div class="cert-card cert-fundamentals reveal" data-cert="ai900">
+          <div class="cert-icon">
+            <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg" alt="Microsoft Certified Fundamentals Badge" />
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge cert-badge--fundamentals">Fundamentals</span>
+            <h3 data-i18n="certs.items.ai900.name">Azure AI Fundamentals</h3>
+            <span class="cert-code">AI-900</span>
+          </div>
+        </div>
+
+        <div class="cert-card cert-fundamentals reveal" data-cert="sc900">
+          <div class="cert-icon">
+            <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-fundamentals-badge.svg" alt="Microsoft Certified Fundamentals Badge" />
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge cert-badge--fundamentals">Fundamentals</span>
+            <h3 data-i18n="certs.items.sc900.name">Security, Compliance &amp; Identity Fundamentals</h3>
+            <span class="cert-code">SC-900</span>
+          </div>
+        </div>
+
+        <!-- Specialty -->
+        <div class="cert-card cert-specialty reveal" data-cert="aibiz">
+          <div class="cert-icon">
+            <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-specialty-badge.svg" alt="Microsoft Certified Specialty Badge" />
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge cert-badge--specialty">Specialty</span>
+            <h3 data-i18n="certs.items.aibiz.name">AI Business Professional</h3>
+            <span class="cert-code">AB-730</span>
+          </div>
+        </div>
+
+        <div class="cert-card cert-specialty reveal" data-cert="aitl">
+          <div class="cert-icon">
+            <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-specialty-badge.svg" alt="Microsoft Certified Specialty Badge" />
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge cert-badge--specialty">Specialty</span>
+            <h3 data-i18n="certs.items.aitl.name">AI Transformation Leader</h3>
+            <span class="cert-code">AB-731</span>
+          </div>
+        </div>
+
+        <div class="cert-card cert-trainer reveal" data-cert="mct">
+          <div class="cert-icon">
+            <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-expert-badge.svg" alt="Microsoft Certified Trainer Badge" />
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge cert-badge--trainer">Trainer</span>
+            <h3 data-i18n="certs.items.mct.name">Microsoft Certified Trainer</h3>
+            <span class="cert-code">MCT</span>
+          </div>
+        </div>
+
+        <div class="cert-card cert-specialty reveal" data-cert="ainpa">
+          <div class="cert-icon">
+            <img src="https://learn.microsoft.com/en-us/media/learn/certification/badges/microsoft-certified-specialty-badge.svg" alt="Microsoft Certified Specialty Badge" />
+          </div>
+          <div class="cert-info">
+            <span class="cert-badge cert-badge--specialty">Specialty</span>
+            <h3 data-i18n="certs.items.ainpa.name">AI Nonprofit Advisor — General Skills</h3>
+            <span class="cert-code">AI NPA</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Credly verify link — uncomment when all certs are on Credly
+      <div class="certs-verify reveal">
+        <a href="https://www.credly.com/users/diego-diaz.ebaf73dc/badges" target="_blank" rel="noopener" class="btn btn-outline" data-i18n="certs.verify">Verify on Credly →</a>
+      </div>
+      -->
+    </div>
+  </section>
+
+  <!-- ═══════════════ SKILLS ═══════════════ -->
+  <section class="section" id="skills">
+    <div class="container">
+      <h2 class="section-heading reveal" data-i18n="skills.heading">Skills &amp; Technologies</h2>
+      <p class="section-subtitle reveal" data-i18n="skills.subtitle">My core competencies and tools of the trade</p>
+
+      <div class="skills-grid">
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 15a4 4 0 0 0 4 4h10a4 4 0 0 0 0-8h-.35A5.5 5.5 0 0 0 7 8.5a5.5 5.5 0 0 0-.08.85A4 4 0 0 0 3 15z"/></svg>
+            <h3 data-i18n="skills.categories.cloud">Cloud &amp; Infrastructure</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Azure</span>
+            <span class="skill-tag">Azure Arc</span>
+            <span class="skill-tag">Azure DevOps</span>
+            <span class="skill-tag">IaC</span>
+            <span class="skill-tag">Bicep</span>
+            <span class="skill-tag">ARM Templates</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2a4 4 0 0 1 4 4c0 1.95-1.4 3.58-3.25 3.93L12 22"/><path d="M8 6a4 4 0 0 1 8 0"/><circle cx="12" cy="6" r="1"/></svg>
+            <h3 data-i18n="skills.categories.ai">AI &amp; Machine Learning</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Azure OpenAI</span>
+            <span class="skill-tag">Copilot Studio</span>
+            <span class="skill-tag">AI Search</span>
+            <span class="skill-tag">Document Intelligence</span>
+            <span class="skill-tag">Bot Framework</span>
+            <span class="skill-tag">Prompt Engineering</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+            <h3 data-i18n="skills.categories.data">Data &amp; Analytics</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Microsoft Fabric</span>
+            <span class="skill-tag">Power BI</span>
+            <span class="skill-tag">Azure SQL</span>
+            <span class="skill-tag">Cosmos DB</span>
+            <span class="skill-tag">Data Factory</span>
+            <span class="skill-tag">Synapse</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            <h3 data-i18n="skills.categories.security">Security &amp; Compliance</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Microsoft Entra ID</span>
+            <span class="skill-tag">Defender for Cloud</span>
+            <span class="skill-tag">Purview</span>
+            <span class="skill-tag">Zero Trust</span>
+            <span class="skill-tag">Compliance Manager</span>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-category-header">
+            <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            <h3 data-i18n="skills.categories.tools">Tools &amp; Platforms</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Microsoft 365</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Power Platform</span>
+            <span class="skill-tag">Teams</span>
+            <span class="skill-tag">Copilot</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ PROJECTS ═══════════════ -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <h2 class="section-heading reveal" data-i18n="projects.heading">Featured Projects</h2>
+      <p class="section-subtitle reveal" data-i18n="projects.subtitle">Open source contributions and personal initiatives</p>
+
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-header">
+            <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 15a4 4 0 0 0 4 4h10a4 4 0 0 0 0-8h-.35A5.5 5.5 0 0 0 7 8.5a5.5 5.5 0 0 0-.08.85A4 4 0 0 0 3 15z"/></svg>
+            <div class="project-links">
+              <a href="https://github.com/Diaz506/CloudXPedition" target="_blank" rel="noopener" aria-label="GitHub Repository">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-name" data-i18n="projects.project1.name">CloudXPedition</h3>
+          <p class="project-desc" data-i18n="projects.project1.desc">Your expedition into the cloud starts here. Complete challenges, earn XP, collect badges, and conquer 6 phases on your journey to becoming a cloud pre-sales pro.</p>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Azure</span>
+          </div>
+          <a href="https://github.com/Diaz506/CloudXPedition" target="_blank" rel="noopener" class="project-link" data-i18n="projects.view_project">View Project →</a>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-header">
+            <svg class="project-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+            <div class="project-links">
+              <a href="https://github.com/Diaz506/fabric-guide" target="_blank" rel="noopener" aria-label="GitHub Repository">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-name" data-i18n="projects.project2.name">Fabric Guide</h3>
+          <p class="project-desc" data-i18n="projects.project2.desc">Interactive documentation site with best practices for Microsoft Fabric, including an architecture playground, capacity calculator, migration recommender, and readiness quiz.</p>
+          <div class="project-tech">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Microsoft Fabric</span>
+          </div>
+          <a href="https://github.com/Diaz506/fabric-guide" target="_blank" rel="noopener" class="project-link" data-i18n="projects.view_project">View Project →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ EXPERIENCE ═══════════════ -->
+  <section class="section" id="experience">
+    <div class="container">
+      <h2 class="section-heading reveal" data-i18n="experience.heading">Experience</h2>
+      <p class="section-subtitle reveal" data-i18n="experience.subtitle">My professional journey and key milestones</p>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 data-i18n="experience.role1_title">Solutions Engineer — Azure Data & AI Platform</h3>
+            <span class="timeline-company" data-i18n="experience.role1_company">Microsoft</span>
+            <span class="timeline-period" data-i18n="experience.role1_year">2024 — Present</span>
+            <p data-i18n="experience.role1_desc">Designing and implementing scalable data solutions that enable organizations to unlock actionable insights. Expertise spans data architecture, integration, and analytics leveraging Azure Data Factory, Microsoft Fabric, Databricks, and Power BI.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 data-i18n="experience.role2_title">Sr. Digital Specialist — Azure Data, Apps & AI</h3>
+            <span class="timeline-company" data-i18n="experience.role2_company">Microsoft</span>
+            <span class="timeline-period" data-i18n="experience.role2_year">2022 — 2024</span>
+            <p data-i18n="experience.role2_desc">Leading AI and data innovation for FSI, Public Sector, and Nonprofits in the English Caribbean. Designing strategic digital transformation using Azure.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item timeline-award reveal">
+          <div class="timeline-dot timeline-dot--award"></div>
+          <div class="timeline-content timeline-content--award">
+            <h3 data-i18n="experience.award_title">🏆 Champion Award FY22 Q3</h3>
+            <span class="timeline-company">Microsoft</span>
+            <p data-i18n="experience.award_desc">Recognized for exemplary behavior demonstrating growth mindset, winning transformation deals as One Microsoft, and prioritizing customer and partner success.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 data-i18n="experience.role3_title">Digital Specialist — Azure Data & AI</h3>
+            <span class="timeline-company" data-i18n="experience.role3_company">Microsoft</span>
+            <span class="timeline-period" data-i18n="experience.role3_year">2021 — 2022</span>
+            <p data-i18n="experience.role3_desc">Delivered Azure solutions to FSI and Public Sector clients. Supported LATAM/US virtual teams. Guided nonprofit cloud adoption.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 data-i18n="experience.role4_title">Cloud Solution Architect</h3>
+            <span class="timeline-company" data-i18n="experience.role4_company">N3 (Accenture)</span>
+            <span class="timeline-period" data-i18n="experience.role4_year">2020 — 2021</span>
+            <p data-i18n="experience.role4_desc">Architected end-to-end Azure data platforms for US/Canada clients. Specialized in Power BI and analytics.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 data-i18n="experience.role5_title">Azure Specialist — Inside Sales</h3>
+            <span class="timeline-company" data-i18n="experience.role5_company">N3 (Accenture)</span>
+            <span class="timeline-period" data-i18n="experience.role5_year">2019 — 2020</span>
+            <p data-i18n="experience.role5_desc">Liaised between cloud teams and business units. Led strategy for cloud identity and digital readiness.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 data-i18n="experience.role6_title">CSA — Customer Success</h3>
+            <span class="timeline-company" data-i18n="experience.role6_company">Microsoft</span>
+            <span class="timeline-period" data-i18n="experience.role6_year">2018 — 2019</span>
+            <p data-i18n="experience.role6_desc">Supported SMB clients in Microsoft Mexico. Enabled hybrid infrastructure adoption.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3 data-i18n="experience.role7_title">Storage Sales Executive</h3>
+            <span class="timeline-company" data-i18n="experience.role7_company">IBM</span>
+            <span class="timeline-period" data-i18n="experience.role7_year">2017 — 2018</span>
+            <p data-i18n="experience.role7_desc">Advised LATAM clients on software-defined storage and hybrid solutions.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <h3 class="section-subheading reveal" data-i18n="experience.edu_heading">Education</h3>
+      <div class="education-grid">
+        <div class="edu-card reveal">
+          <div class="edu-icon">🎓</div>
+          <h4 data-i18n="experience.edu1_title">Bachelor's in Information Technology</h4>
+          <span class="edu-school" data-i18n="experience.edu1_school">Universidad Cenfotec</span>
+          <span class="edu-period" data-i18n="experience.edu1_period">2014 — 2024</span>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-icon">🔐</div>
+          <h4 data-i18n="experience.edu2_title">Associate in IT — Cybersecurity</h4>
+          <span class="edu-school" data-i18n="experience.edu2_school">Universidad Cenfotec</span>
+          <span class="edu-period" data-i18n="experience.edu2_period">2020 — 2022</span>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-icon">📡</div>
+          <h4 data-i18n="experience.edu3_title">Associate in Telecommunications</h4>
+          <span class="edu-school" data-i18n="experience.edu3_school">Universidad Cenfotec</span>
+          <span class="edu-period" data-i18n="experience.edu3_period">2019 — 2022</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ COMMUNITY ═══════════════ -->
+  <section class="section section-alt" id="community">
+    <div class="container">
+      <h2 class="section-heading reveal" data-i18n="community.heading">Community &amp; Volunteering</h2>
+      <p class="section-subtitle reveal" data-i18n="community.subtitle">Giving back and empowering others through technology</p>
+
+      <div class="community-grid">
+        <div class="community-card reveal">
+          <div class="community-icon">🎓</div>
+          <h3 data-i18n="community.role1_title">HOLA Academy Lead</h3>
+          <span class="community-org" data-i18n="community.role1_org">HOLA Costa Rica</span>
+          <span class="community-period" data-i18n="community.role1_period">Jul 2024 — Present</span>
+          <p data-i18n="community.role1_desc">Leading an educational initiative that empowers Hispanic and Latinx communities — both internally at Microsoft and externally across Costa Rica and Latin America — through courses, workshops, certifications, and mentorship programs.</p>
+        </div>
+
+        <div class="community-card reveal">
+          <div class="community-icon">🌍</div>
+          <h3 data-i18n="community.role2_title">Change Agent</h3>
+          <span class="community-org" data-i18n="community.role2_org">Fundación Grítalo</span>
+          <span class="community-period" data-i18n="community.role2_period">Jan 2024 — Present</span>
+          <p data-i18n="community.role2_desc">Supporting the foundation across various fronts including technology adoption, Give campaigns, and general volunteering to drive social impact.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CONTACT ═══════════════ -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 class="section-heading reveal" data-i18n="contact.heading">Let's Connect</h2>
+      <p class="section-subtitle reveal" data-i18n="contact.subtitle">I'm always open to new conversations and collaborations</p>
+
+      <div class="contact-links reveal">
+        <a href="https://www.linkedin.com/in/diegodiazrodriguez/" target="_blank" rel="noopener" class="contact-card">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          <span data-i18n="contact.cta_linkedin">LinkedIn</span>
+        </a>
+        <!-- Uncomment to add more links later:
+        <a href="https://github.com/Diaz506" target="_blank" rel="noopener" class="contact-card">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          <span data-i18n="contact.cta_github">GitHub</span>
+        </a>
+        <a href="https://www.credly.com/users/diego-diaz.ebaf73dc/badges" target="_blank" rel="noopener" class="contact-card">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          <span data-i18n="contact.cta_credly">Credly</span>
+        </a>
+        <a href="mailto:your-email@example.com" class="contact-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/></svg>
+          <span data-i18n="contact.cta_email">Send me an email</span>
+        </a>
+        -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ═══════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <p>
+        <span data-i18n="footer.made_with">Made with</span> <span class="heart">♥</span> <span data-i18n="footer.by">by Diego Diaz Rodriguez</span>
+        &middot; &copy; 2026 &middot;
+        <span data-i18n="footer.rights">All rights reserved.</span>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,151 @@
+{
+  "nav": {
+    "about": "About",
+    "certs": "Certifications",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "community": "Community",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Diego Diaz Rodriguez",
+    "title": "Solutions Engineer | Azure Data & AI",
+    "subtitle": "Passionate about technology, innovation & empowering communities",
+    "cta_linkedin": "Connect on LinkedIn",
+    "cta_experience": "See My Experience"
+  },
+  "about": {
+    "heading": "About Me",
+    "p1": "Technology Advisor and Change Agent with expertise in Cloud Computing, Data Architecture, and AI. Trusted by governments, enterprises, and nonprofits to lead digital transformation. Microsoft Certified Trainer (MCT) and strategic leader in Azure, networking, and security.",
+    "p2": "Beyond my technical work, I'm deeply committed to community building and education — leading HOLA Academy, delivering technical courses to NGOs in Costa Rica, and empowering Hispanic and Latinx communities in tech.",
+    "highlight1_number": "12+",
+    "highlight1_label": "Certifications",
+    "highlight2_number": "6+",
+    "highlight2_label": "Years in Cloud",
+    "highlight3_number": "2",
+    "highlight3_label": "Open Source Projects"
+  },
+  "certs": {
+    "heading": "Certifications",
+    "subtitle": "Verified credentials earned through continuous learning",
+    "verify": "Verify on Credly →",
+    "items": {
+      "az305": { "name": "Azure Solutions Architect Expert", "code": "AZ-305", "category": "Architecture" },
+      "ai102": { "name": "Azure AI Engineer Associate", "code": "AI-102", "category": "AI" },
+      "dp700": { "name": "Fabric Analytics Engineer Associate", "code": "DP-700", "category": "Data" },
+      "m365copilot": { "name": "M365 Copilot & Agent Admin Fundamentals", "code": "AB-900", "category": "M365" },
+      "az900": { "name": "Azure Fundamentals", "code": "AZ-900", "category": "Azure" },
+      "dp900": { "name": "Azure Data Fundamentals", "code": "DP-900", "category": "Data" },
+      "ai900": { "name": "Azure AI Fundamentals", "code": "AI-900", "category": "AI" },
+      "sc900": { "name": "Security, Compliance & Identity Fundamentals", "code": "SC-900", "category": "Security" },
+      "aibiz": { "name": "AI Business Professional", "code": "AB-730", "category": "AI" },
+      "aitl": { "name": "AI Transformation Leader", "code": "AB-731", "category": "Leadership" },
+      "mct": { "name": "Microsoft Certified Trainer", "code": "MCT", "category": "Trainer" },
+      "ainpa": { "name": "AI Nonprofit Advisor — General Skills", "code": "AI NPA", "category": "AI" },
+      "iso27001": { "name": "ISO 27001 Lead Auditor", "code": "ISO 27001", "category": "Security" }
+    }
+  },
+  "skills": {
+    "heading": "Skills & Technologies",
+    "subtitle": "My core competencies and tools of the trade",
+    "categories": {
+      "cloud": "Cloud & Infrastructure",
+      "ai": "AI & Machine Learning",
+      "data": "Data & Analytics",
+      "security": "Security & Compliance",
+      "tools": "Tools & Platforms"
+    }
+  },
+  "projects": {
+    "heading": "Featured Projects",
+    "subtitle": "Open source contributions and personal initiatives",
+    "view_project": "View Project →",
+    "project1": {
+      "name": "CloudXPedition",
+      "desc": "Your expedition into the cloud starts here. Complete challenges, earn XP, collect badges, and conquer 6 phases on your journey to becoming a cloud pre-sales pro."
+    },
+    "project2": {
+      "name": "Fabric Guide",
+      "desc": "Interactive documentation site with best practices for Microsoft Fabric, including an architecture playground, capacity calculator, migration recommender, and readiness quiz."
+    }
+  },
+  "experience": {
+    "heading": "Experience",
+    "subtitle": "My professional journey and key milestones",
+    "role1_title": "Solutions Engineer — Azure Data & AI Platform",
+    "role1_company": "Microsoft",
+      "role1_year": "2024 — Present",
+    "role1_period": "Sep 2024 — Oct 2025",
+    "role1_desc": "Designing and implementing scalable data solutions that enable organizations to unlock actionable insights. Expertise spans data architecture, integration, and analytics leveraging Azure Data Factory, Microsoft Fabric, Databricks, and Power BI.",
+    "role2_title": "Sr. Digital Specialist — Azure Data, Apps & AI",
+    "role2_company": "Microsoft",
+      "role2_year": "2022 — 2024",
+    "role2_period": "Sep 2024 — Oct 2025",
+    "role2_desc": "Leading AI and data innovation for FSI, Public Sector, and Nonprofits in the English Caribbean. Designing strategic digital transformation using Azure.",
+    "role3_title": "Digital Specialist — Azure Data & AI",
+    "role3_company": "Microsoft",
+      "role3_year": "2021 — 2022",
+    "role3_period": "Oct 2021 — Sep 2024",
+    "role3_desc": "Delivered Azure solutions to FSI and Public Sector clients. Supported LATAM/US virtual teams. Guided nonprofit cloud adoption.",
+    "role4_title": "Cloud Solution Architect",
+    "role4_company": "N3 (Accenture)",
+      "role4_year": "2020 — 2021",
+    "role4_period": "Jul 2020 — Sep 2021",
+    "role4_desc": "Architected end-to-end Azure data platforms for US/Canada clients. Specialized in Power BI and analytics.",
+    "role5_title": "Azure Specialist — Inside Sales",
+    "role5_company": "N3 (Accenture)",
+      "role5_year": "2019 — 2020",
+    "role5_period": "Jan 2020 — Jul 2020",
+    "role5_desc": "Liaised between cloud teams and business units. Led strategy for cloud identity and digital readiness.",
+    "role6_title": "CSA — Customer Success",
+    "role6_company": "Microsoft",
+      "role6_year": "2018 — 2019",
+    "role6_period": "Jul 2019 — Jan 2020",
+    "role6_desc": "Supported SMB clients in Microsoft Mexico. Enabled hybrid infrastructure adoption.",
+    "role7_title": "Storage Sales Executive",
+    "role7_company": "IBM",
+      "role7_year": "2017 — 2018",
+    "role7_period": "Jul 2018 — Jul 2019",
+    "role7_desc": "Advised LATAM clients on software-defined storage and hybrid solutions.",
+    "award_title": "🏆 Champion Award FY22 Q3",
+    "award_desc": "Recognized for exemplary behavior demonstrating growth mindset, winning transformation deals as One Microsoft, and prioritizing customer and partner success.",
+    "edu_heading": "Education",
+    "edu1_title": "Bachelor's in Information Technology",
+    "edu1_school": "Universidad Cenfotec",
+    "edu1_period": "2014 — 2024",
+    "edu2_title": "Associate in IT — Cybersecurity",
+    "edu2_school": "Universidad Cenfotec",
+    "edu2_period": "2020 — 2022",
+    "edu3_title": "Associate in Telecommunications",
+    "edu3_school": "Universidad Cenfotec",
+    "edu3_period": "2019 — 2022"
+  },
+  "community": {
+    "heading": "Community & Volunteering",
+    "subtitle": "Giving back and empowering others through technology",
+    "role1_title": "HOLA Academy Lead",
+    "role1_org": "HOLA Costa Rica",
+    "role1_period": "Jul 2024 — Present",
+    "role1_desc": "Leading an educational initiative that empowers Hispanic and Latinx communities — both internally at Microsoft and externally across Costa Rica and Latin America — through courses, workshops, certifications, and mentorship programs.",
+    "role2_title": "Change Agent",
+    "role2_org": "Fundación Grítalo",
+    "role2_period": "Jan 2024 — Present",
+    "role2_desc": "Supporting the foundation across various fronts including technology adoption, Give campaigns, and general volunteering to drive social impact."
+  },
+  "contact": {
+    "heading": "Let's Connect",
+    "subtitle": "I'm always open to new conversations and collaborations",
+    "cta_email": "Send me an email",
+    "cta_linkedin": "LinkedIn",
+    "cta_github": "GitHub",
+    "cta_credly": "Credly"
+  },
+  "footer": {
+    "made_with": "Made with",
+    "by": "by Diego Diaz Rodriguez",
+    "rights": "All rights reserved."
+  },
+  "lang_toggle": "ES"
+}
