@@ -299,8 +299,12 @@ ul { list-style: none; }
 
 /* ═══════════════ SKILLS ═══════════════ */
 .skills-grid {
-  display: grid; grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  display: flex; flex-wrap: wrap; gap: 24px;
+  justify-content: center;
+}
+.skills-grid > .skill-category {
+  flex: 0 1 calc((100% - 48px) / 3);
+  min-width: 280px;
 }
 .skill-category {
   background: var(--surface); border: 1px solid var(--border);
@@ -465,7 +469,7 @@ ul { list-style: none; }
 
 /* ═══════════════ RESPONSIVE ═══════════════ */
 @media (max-width: 1024px) {
-  .skills-grid { grid-template-columns: repeat(2, 1fr); }
+  .skills-grid > .skill-category { flex: 0 1 calc((100% - 24px) / 2); }
 }
 
 @media (max-width: 768px) {
@@ -481,7 +485,7 @@ ul { list-style: none; }
   .about-grid { grid-template-columns: 1fr; gap: 32px; }
   .about-highlights { justify-content: center; }
   .certs-grid { grid-template-columns: 1fr; }
-  .skills-grid { grid-template-columns: 1fr; }
+  .skills-grid > .skill-category { flex: 1 1 100%; }
   .projects-grid { grid-template-columns: 1fr; }
   .community-grid { grid-template-columns: 1fr; }
   .contact-links { flex-direction: column; align-items: center; }
