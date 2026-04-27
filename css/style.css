@@ -299,7 +299,7 @@ ul { list-style: none; }
 
 /* ═══════════════ SKILLS ═══════════════ */
 .skills-grid {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  display: grid; grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 .skill-category {
@@ -464,6 +464,10 @@ ul { list-style: none; }
 }
 
 /* ═══════════════ RESPONSIVE ═══════════════ */
+@media (max-width: 1024px) {
+  .skills-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
 @media (max-width: 768px) {
   .nav-links { 
     display: none; flex-direction: column; gap: 0;
