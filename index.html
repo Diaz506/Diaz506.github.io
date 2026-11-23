@@ -51,7 +51,14 @@
     <canvas id="hero-canvas"></canvas>
     <div class="hero-content">
       <div class="hero-avatar">
-        <img src="assets/images/Avatar.jpeg" alt="Diego Diaz Rodriguez" width="160" height="160" />
+        <button type="button" class="coin" id="hero-coin" aria-pressed="false" aria-label="Flip photo: cartoon / real" data-i18n-aria="hero.coin_label">
+          <span class="coin-face coin-front">
+            <img src="assets/images/Avatar.jpeg" alt="Diego Diaz Rodriguez — cartoon" width="160" height="160" />
+          </span>
+          <span class="coin-face coin-back">
+            <img src="assets/images/Photo.jpg" alt="Diego Diaz Rodriguez" width="160" height="160" loading="lazy" />
+          </span>
+        </button>
       </div>
       <p class="hero-greeting" data-i18n="hero.greeting">Hello, I'm</p>
       <h1 class="hero-name">

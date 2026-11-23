@@ -157,6 +157,33 @@
     heroObserver.observe(canvas);
   }
 
+  /* ── Coin flip avatar (cartoon ⇄ real photo) ── */
+  const coin = document.getElementById('hero-coin');
+  if (coin) {
+    const setFlip = (on) => {
+      coin.classList.toggle('flipped', on);
+      coin.setAttribute('aria-pressed', on ? 'true' : 'false');
+    };
+    const canHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+    let lastPointer = '';
+    coin.addEventListener('pointerdown', e => { lastPointer = e.pointerType; });
+    if (canHover) {
+      coin.addEventListener('mouseenter', () => setFlip(true));
+      coin.addEventListener('mouseleave', () => setFlip(false));
+    }
+    // Tap (touch) or keyboard (Enter/Space) toggles; mouse clicks are handled by hover
+    coin.addEventListener('click', () => {
+      if (canHover && lastPointer === 'mouse') { lastPointer = ''; return; }
+      lastPointer = '';
+      setFlip(!coin.classList.contains('flipped'));
+    });
+    // One teaser flip on load so visitors discover the other side
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      setTimeout(() => { if (!coin.matches(':hover')) setFlip(true); }, 1600);
+      setTimeout(() => { if (!coin.matches(':hover')) setFlip(false); }, 3600);
+    }
+  }
+
   /* ── Smooth scroll for nav links ── */
   document.querySelectorAll('a[href^="#"]').forEach(a => {
     a.addEventListener('click', e => {

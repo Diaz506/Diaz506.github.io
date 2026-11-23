@@ -15,7 +15,8 @@
     "title": "Cloud Solutions Engineer | Azure Data & AI",
     "subtitle": "Passionate about technology, innovation & empowering communities",
     "cta_linkedin": "Connect on LinkedIn",
-    "cta_experience": "See My Experience"
+    "cta_experience": "See My Experience",
+    "coin_label": "Flip photo: cartoon / real"
   },
   "about": {
     "heading": "About Me",
@@ -197,6 +198,7 @@
     "long": "Diego Diaz Rodriguez is a Solutions Engineer for Azure Data & AI at Microsoft, with more than 7 years of experience in cloud computing across Microsoft, Accenture (N3), and IBM. He has partnered with governments and global enterprises in Financial Services, Oil & Gas, Retail, and Healthcare across Latin America, the Caribbean, and the United States — shaping enterprise data strategies, building analytics platforms with Microsoft Fabric and Power BI, and accelerating AI adoption. Diego holds more than 12 certifications, including Azure Solutions Architect Expert and Azure AI Engineer Associate, and is a Microsoft Certified Trainer. Beyond his technical work, he is a core team member of the Data & AI Community of Costa Rica, leads HOLA Academy — an initiative that empowers Hispanic and Latinx communities in tech — and volunteers as a Change Agent with Fundación Grítalo. He holds a Bachelor's degree in Information Technology from Universidad Cenfotec.",
     "copy": "Copy",
     "copied": "Copied!",
-    "back": "← Back to portfolio"
+    "back": "← Back to portfolio",
+    "download_photo": "Download photo"
   }
 }
