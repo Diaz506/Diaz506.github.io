@@ -20,7 +20,9 @@
       if (window.scrollY >= top) current = s.id;
     });
     navLinks.forEach(a => {
-      a.classList.toggle('active', a.getAttribute('href') === `#${current}`);
+      const href = a.getAttribute('href');
+      if (!href.startsWith('#')) return; // leave page links (e.g. bio.html) alone
+      a.classList.toggle('active', href === `#${current}`);
     });
   }
 

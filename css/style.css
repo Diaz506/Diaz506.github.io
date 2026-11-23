@@ -424,7 +424,7 @@ ul { list-style: none; }
 
 /* ═══════════════ COMMUNITY ═══════════════ */
 .community-grid {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 28px;
 }
 .community-card {
@@ -505,4 +505,112 @@ ul { list-style: none; }
   *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
   html { scroll-behavior: auto; }
   .reveal { opacity: 1; transform: none; }
+}
+
+/* ═══════════════ SPEAKER BIO PAGE ═══════════════ */
+.nav-bio { color: var(--accent-light) !important; }
+.bio-section { padding-top: 120px; }
+.bio-section .section-heading, .bio-section .section-subtitle { text-align: center; }
+.btn-sm { padding: 8px 18px; font-size: 0.85rem; }
+
+.bio-slide-toolbar { display: flex; justify-content: flex-end; margin-bottom: 14px; }
+
+/* 16:9 slide — sizes scale with the slide's own width (container query units) */
+.bio-slide {
+  container-type: inline-size;
+  aspect-ratio: 16 / 9; width: 100%;
+  border-radius: var(--radius); overflow: hidden;
+  border: 1px solid var(--border);
+  background:
+    radial-gradient(circle at 12% 20%, rgba(0, 120, 212, 0.35), transparent 45%),
+    radial-gradient(circle at 90% 90%, rgba(45, 212, 191, 0.18), transparent 40%),
+    linear-gradient(135deg, #0d1117 0%, #111a2b 100%);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.45);
+}
+.bio-slide-inner {
+  display: grid; grid-template-columns: 38% 1fr; height: 100%;
+  padding: 5cqw; gap: 4.5cqw; align-items: center;
+}
+.bio-slide-left { display: flex; flex-direction: column; align-items: center; gap: 3cqw; }
+.bio-slide-avatar {
+  width: 20cqw; height: 20cqw; border-radius: 50%; overflow: hidden;
+  border: 0.4cqw solid var(--accent); box-shadow: 0 0 4cqw var(--accent-glow);
+}
+.bio-slide-avatar img { width: 100%; height: 100%; object-fit: cover; }
+.bio-slide-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2cqw; width: 100%; }
+.bio-stat {
+  background: rgba(28, 35, 51, 0.75); border: 1px solid var(--border);
+  border-radius: 1cqw; padding: 1.2cqw 0.8cqw; text-align: center;
+}
+.bio-stat-number { display: block; font-family: var(--mono); font-weight: 800; font-size: 2.6cqw; color: var(--accent-light); line-height: 1.2; }
+.bio-stat-label { display: block; font-size: 1.15cqw; color: var(--text-muted); line-height: 1.3; }
+.bio-slide-label {
+  display: inline-block; font-family: var(--mono); font-size: 1.4cqw; letter-spacing: 0.15em;
+  text-transform: uppercase; color: var(--teal); margin-bottom: 1cqw;
+}
+.bio-slide-name { font-size: 4.6cqw; font-weight: 800; line-height: 1.1; margin-bottom: 0.8cqw; }
+.bio-slide-title { font-size: 1.9cqw; color: var(--accent-light); font-weight: 600; margin-bottom: 2.6cqw; line-height: 1.35; }
+.bio-slide-points { display: flex; flex-direction: column; gap: 1.4cqw; }
+.bio-slide-points li {
+  position: relative; padding-left: 2.6cqw;
+  font-size: 1.75cqw; line-height: 1.45; color: var(--text);
+}
+.bio-slide-points li::before {
+  content: ""; position: absolute; left: 0; top: 0.65em;
+  width: 1cqw; height: 1cqw; border-radius: 50%; background: var(--accent);
+}
+.bio-slide-footer {
+  display: flex; gap: 2.4cqw; margin-top: 3cqw;
+  font-family: var(--mono); font-size: 1.2cqw; color: var(--text-muted);
+}
+
+/* Full-screen presentation mode */
+.bio-slide:fullscreen {
+  width: 100vw; height: 100vh; aspect-ratio: auto; border: 0; border-radius: 0;
+  display: flex; align-items: center; justify-content: center;
+}
+.bio-slide:fullscreen .bio-slide-inner { width: min(100vw, 177.78vh); height: min(100vh, 56.25vw); }
+.bio-slide:fullscreen { container-type: normal; }
+.bio-slide:fullscreen .bio-slide-inner { container-type: inline-size; }
+
+.bio-topics { justify-content: center; margin-bottom: 48px; }
+.bio-section .section-subheading { text-align: center; margin-top: 56px; }
+
+.bio-texts { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+.bio-text-card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); padding: 28px;
+}
+.bio-text-card header { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; margin-bottom: 14px; }
+.bio-text-card h3 { font-size: 1.1rem; }
+.bio-text-hint { font-size: 0.8rem; color: var(--text-muted); font-family: var(--mono); }
+.bio-text-card p { color: var(--text-muted); font-size: 0.98rem; }
+.bio-copy {
+  flex-shrink: 0; cursor: pointer; font: inherit; font-size: 0.85rem; font-weight: 600;
+  padding: 6px 16px; border-radius: 50px;
+  background: transparent; color: var(--accent-light); border: 1px solid var(--accent);
+  transition: all var(--transition);
+}
+.bio-copy:hover { background: var(--accent); color: #fff; }
+.bio-copy.copied { background: var(--green); border-color: var(--green); color: #0d1117; }
+.bio-back { text-align: center; margin-top: 48px; }
+
+@media (max-width: 768px) {
+  .bio-texts { grid-template-columns: 1fr; }
+  .bio-slide-toolbar { justify-content: center; }
+  /* Stack the slide on phones so text stays readable */
+  .bio-slide:not(:fullscreen) { aspect-ratio: auto; }
+  .bio-slide:not(:fullscreen) .bio-slide-inner { grid-template-columns: 1fr; padding: 8cqw 6cqw; gap: 6cqw; text-align: center; }
+  .bio-slide:not(:fullscreen) .bio-slide-avatar { width: 38cqw; height: 38cqw; }
+  .bio-slide:not(:fullscreen) .bio-stat-number { font-size: 6.5cqw; }
+  .bio-slide:not(:fullscreen) .bio-stat-label { font-size: 3.2cqw; }
+  .bio-slide:not(:fullscreen) .bio-stat { padding: 3cqw 2cqw; border-radius: 2.5cqw; }
+  .bio-slide:not(:fullscreen) .bio-slide-stats { gap: 3cqw; }
+  .bio-slide:not(:fullscreen) .bio-slide-label { font-size: 3.4cqw; }
+  .bio-slide:not(:fullscreen) .bio-slide-name { font-size: 9cqw; }
+  .bio-slide:not(:fullscreen) .bio-slide-title { font-size: 4.4cqw; }
+  .bio-slide:not(:fullscreen) .bio-slide-points { text-align: left; gap: 3cqw; }
+  .bio-slide:not(:fullscreen) .bio-slide-points li { font-size: 4.2cqw; padding-left: 5.5cqw; }
+  .bio-slide:not(:fullscreen) .bio-slide-points li::before { width: 2.2cqw; height: 2.2cqw; }
+  .bio-slide:not(:fullscreen) .bio-slide-footer { flex-direction: column; gap: 1cqw; font-size: 3.2cqw; margin-top: 5cqw; }
 }

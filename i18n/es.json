@@ -6,7 +6,8 @@
     "projects": "Proyectos",
     "experience": "Experiencia",
     "community": "Comunidad",
-    "contact": "Contacto"
+    "contact": "Contacto",
+    "bio": "Bio para Charlas"
   },
   "hero": {
     "greeting": "Hola, soy",
@@ -18,11 +19,11 @@
   },
   "about": {
     "heading": "Sobre Mí",
-    "p1": "Asesor tecnológico y agente de cambio con experiencia en Cloud Computing, Arquitectura de Datos e IA. Con la confianza de gobiernos, empresas y organizaciones sin fines de lucro para liderar la transformación digital. Microsoft Certified Trainer (MCT) y líder estratégico en Azure, redes y seguridad.",
-    "p2": "Más allá de mi trabajo técnico, estoy comprometido con la construcción de comunidad y la educación — liderando HOLA Academy, impartiendo cursos técnicos a ONGs en Costa Rica y empoderando a comunidades hispanas y latinas en tecnología.",
+    "p1": "He colaborado con organizaciones en América Latina, el Caribe y Estados Unidos para convertir los datos en una ventaja competitiva. Desde definir estrategias de datos empresariales y construir plataformas de analítica hasta acelerar la adopción de IA, he guiado a gobiernos y empresas globales en Servicios Financieros, Oil & Gas, Retail y Salud a través de sus iniciativas de transformación digital más críticas.",
+    "p2": "Más allá de mi trabajo técnico, estoy comprometido con la construcción de comunidad y la educación — como parte del equipo core de la Comunidad de Datos y AI de Costa Rica, liderando HOLA Academy, impartiendo cursos técnicos a ONGs en Costa Rica y empoderando a comunidades hispanas y latinas en tecnología.",
     "highlight1_number": "12+",
     "highlight1_label": "Certificaciones",
-    "highlight2_number": "6+",
+    "highlight2_number": "7+",
     "highlight2_label": "Años en Cloud",
     "highlight3_number": "2",
     "highlight3_label": "Proyectos Open Source"
@@ -32,19 +33,42 @@
     "subtitle": "Credenciales verificadas obtenidas a través del aprendizaje continuo",
     "verify": "Verificar en Credly →",
     "items": {
-      "az305": { "name": "Azure Solutions Architect Expert", "code": "AZ-305", "category": "Arquitectura" },
-      "ai102": { "name": "Azure AI Engineer Associate", "code": "AI-102", "category": "IA" },
-      "dp700": { "name": "Fabric Analytics Engineer Associate", "code": "DP-700", "category": "Datos" },
-      "m365copilot": { "name": "M365 Copilot & Agent Admin Fundamentals", "code": "AB-900", "category": "M365" },
-      "az900": { "name": "Azure Fundamentals", "code": "AZ-900", "category": "Azure" },
-      "dp900": { "name": "Azure Data Fundamentals", "code": "DP-900", "category": "Datos" },
-      "ai900": { "name": "Azure AI Fundamentals", "code": "AI-900", "category": "IA" },
-      "sc900": { "name": "Security, Compliance & Identity Fundamentals", "code": "SC-900", "category": "Seguridad" },
-      "aibiz": { "name": "AI Business Professional", "code": "AB-730", "category": "IA" },
-      "aitl": { "name": "AI Transformation Leader", "code": "AB-731", "category": "Liderazgo" },
-      "mct": { "name": "Microsoft Certified Trainer", "code": "MCT", "category": "Instructor" },
-      "ainpa": { "name": "AI Nonprofit Advisor — Habilidades Generales", "code": "AI NPA", "category": "IA" },
-      "iso27001": { "name": "Auditor Líder ISO 27001", "code": "ISO 27001", "category": "Seguridad" }
+      "az305": {
+        "name": "Azure Solutions Architect Expert"
+      },
+      "ai102": {
+        "name": "Azure AI Engineer Associate"
+      },
+      "dp700": {
+        "name": "Fabric Analytics Engineer Associate"
+      },
+      "m365copilot": {
+        "name": "M365 Copilot & Agent Admin Fundamentals"
+      },
+      "az900": {
+        "name": "Azure Fundamentals"
+      },
+      "dp900": {
+        "name": "Azure Data Fundamentals"
+      },
+      "ai900": {
+        "name": "Azure AI Fundamentals"
+      },
+      "sc900": {
+        "name": "Security, Compliance & Identity Fundamentals"
+      },
+      "aibiz": {
+        "name": "AI Business Professional"
+      },
+      "aitl": {
+        "name": "AI Transformation Leader"
+      },
+      "mct": {
+        "name": "Microsoft Certified Trainer"
+      },
+      "ainpa": {
+        "name": "AI Nonprofit Advisor — Habilidades Generales"
+      }
     }
   },
   "skills": {
@@ -77,38 +101,31 @@
     "subtitle": "Mi trayectoria profesional y logros clave",
     "role1_title": "Solutions Engineer — Azure Data & AI Platform",
     "role1_company": "Microsoft",
-      "role1_year": "2024 — Presente",
-    "role1_period": "Sep 2024 — Oct 2025",
+    "role1_year": "2024 — Presente",
     "role1_desc": "Diseñando e implementando soluciones de datos escalables que permiten a las organizaciones obtener insights accionables. Experiencia en arquitectura de datos, integración y analítica con Azure Data Factory, Microsoft Fabric, Databricks y Power BI.",
     "role2_title": "Sr. Digital Specialist — Azure Data, Apps & AI",
     "role2_company": "Microsoft",
-      "role2_year": "2022 — 2024",
-    "role2_period": "Sep 2024 — Oct 2025",
+    "role2_year": "2022 — 2024",
     "role2_desc": "Liderando innovación en IA y datos para FSI, Sector Público y ONGs en el Caribe anglófono. Diseñando transformación digital estratégica con Azure.",
     "role3_title": "Digital Specialist — Azure Data & AI",
     "role3_company": "Microsoft",
-      "role3_year": "2021 — 2022",
-    "role3_period": "Oct 2021 — Sep 2024",
+    "role3_year": "2021 — 2022",
     "role3_desc": "Entregué soluciones Azure a clientes FSI y Sector Público. Apoyé equipos virtuales LATAM/US. Guié la adopción cloud para organizaciones sin fines de lucro.",
     "role4_title": "Cloud Solution Architect",
     "role4_company": "N3 (Accenture)",
-      "role4_year": "2020 — 2021",
-    "role4_period": "Jul 2020 — Sep 2021",
+    "role4_year": "2020 — 2021",
     "role4_desc": "Arquitecté plataformas de datos Azure end-to-end para clientes de US/Canadá. Especializado en Power BI y analítica.",
     "role5_title": "Azure Specialist — Inside Sales",
     "role5_company": "N3 (Accenture)",
-      "role5_year": "2019 — 2020",
-    "role5_period": "Ene 2020 — Jul 2020",
+    "role5_year": "2019 — 2020",
     "role5_desc": "Enlace entre equipos cloud y unidades de negocio. Lideré estrategia de identidad cloud y preparación digital.",
     "role6_title": "CSA — Customer Success",
     "role6_company": "Microsoft",
-      "role6_year": "2018 — 2019",
-    "role6_period": "Jul 2019 — Ene 2020",
+    "role6_year": "2018 — 2019",
     "role6_desc": "Apoyé a clientes SMB en Microsoft México. Habilitación de adopción de infraestructura híbrida.",
     "role7_title": "Storage Sales Executive",
     "role7_company": "IBM",
-      "role7_year": "2017 — 2018",
-    "role7_period": "Jul 2018 — Jul 2019",
+    "role7_year": "2017 — 2018",
     "role7_desc": "Asesoré a clientes LATAM en almacenamiento definido por software y soluciones híbridas.",
     "award_title": "🏆 Champion Award FY22 Q3",
     "award_desc": "Reconocido por un comportamiento ejemplar demostrando mentalidad de crecimiento, ganando acuerdos de transformación como One Microsoft, y priorizando el éxito de clientes y socios.",
@@ -133,7 +150,11 @@
     "role2_title": "Agente de Cambio",
     "role2_org": "Fundación Grítalo",
     "role2_period": "Ene 2024 — Presente",
-    "role2_desc": "Apoyando a la fundación en diversos frentes incluyendo adopción tecnológica, campañas Give y voluntariado general para impulsar el impacto social."
+    "role2_desc": "Apoyando a la fundación en diversos frentes incluyendo adopción tecnológica, campañas Give y voluntariado general para impulsar el impacto social.",
+    "role3_title": "Miembro del Equipo Core",
+    "role3_org": "Comunidad de Datos y AI de Costa Rica",
+    "role3_period": "Presente",
+    "role3_desc": "Parte del equipo core que organiza y hace crecer la comunidad de Datos y AI de Costa Rica — reuniendo a profesionales de datos e IA a través de meetups, charlas e intercambio de conocimiento."
   },
   "contact": {
     "heading": "Conectemos",
@@ -148,5 +169,34 @@
     "by": "por Diego Diaz Rodriguez",
     "rights": "Todos los derechos reservados."
   },
-  "lang_toggle": "EN"
+  "lang_toggle": "EN",
+  "bio": {
+    "heading": "Bio para Charlas",
+    "subtitle": "Perfil listo para organizadores de eventos, presentaciones e introducciones",
+    "fullscreen": "Presentar en pantalla completa",
+    "slide_label": "Sobre mí",
+    "slide_name": "Diego Diaz Rodriguez",
+    "slide_title": "Solutions Engineer — Azure Data & AI · Microsoft",
+    "stat1_number": "7+",
+    "stat1_label": "Años en Cloud",
+    "stat2_number": "12+",
+    "stat2_label": "Certificaciones",
+    "stat3_number": "MCT",
+    "stat3_label": "Microsoft Certified Trainer",
+    "stat4_number": "3",
+    "stat4_label": "Regiones: LATAM · Caribe · EE.UU.",
+    "point1": "Ayuda a gobiernos y empresas globales a convertir los datos en ventaja competitiva con Azure, Microsoft Fabric e IA",
+    "point2": "Miembro del equipo core, Comunidad de Datos y AI de Costa Rica",
+    "point3": "Líder de HOLA Academy · Agente de Cambio en Fundación Grítalo",
+    "topics_heading": "Temas de charlas",
+    "short_heading": "Bio corta",
+    "short_hint": "~60 palabras · ideal para agendas y páginas de eventos",
+    "short": "Diego Diaz Rodriguez es Solutions Engineer de Azure Data & AI en Microsoft, con más de 7 años de experiencia en computación en la nube. Ayuda a organizaciones de América Latina, el Caribe y Estados Unidos a convertir los datos en una ventaja competitiva. Es Microsoft Certified Trainer, forma parte del equipo core de la Comunidad de Datos y AI de Costa Rica y lidera HOLA Academy.",
+    "long_heading": "Bio completa",
+    "long_hint": "~150 palabras · ideal para que un presentador te introduzca",
+    "long": "Diego Diaz Rodriguez es Solutions Engineer de Azure Data & AI en Microsoft, con más de 7 años de experiencia en computación en la nube en Microsoft, Accenture (N3) e IBM. Ha colaborado con gobiernos y empresas globales de Servicios Financieros, Oil & Gas, Retail y Salud en América Latina, el Caribe y Estados Unidos — definiendo estrategias de datos empresariales, construyendo plataformas de analítica con Microsoft Fabric y Power BI, y acelerando la adopción de IA. Diego cuenta con más de 12 certificaciones, entre ellas Azure Solutions Architect Expert y Azure AI Engineer Associate, y es Microsoft Certified Trainer. Más allá de su trabajo técnico, forma parte del equipo core de la Comunidad de Datos y AI de Costa Rica, lidera HOLA Academy — una iniciativa que empodera a comunidades hispanas y latinas en tecnología — y es Agente de Cambio voluntario en Fundación Grítalo. Es licenciado en Tecnologías de Información por la Universidad Cenfotec.",
+    "copy": "Copiar",
+    "copied": "¡Copiado!",
+    "back": "← Volver al portafolio"
+  }
 }
